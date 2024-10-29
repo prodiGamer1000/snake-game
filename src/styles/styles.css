@@ -9,6 +9,9 @@
 title{ 
     display: none;
 }
+body{
+    height: 100vh;
+}
 .block{
     height: 20px;
     width: 20px;
