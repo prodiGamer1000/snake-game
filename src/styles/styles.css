@@ -12,12 +12,12 @@ body{
     height: 99vh;
 }
 .game{
-    border-left: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-top: 2px solid #ddd;
 }
 .block{
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-right: 2px solid #ddd;
     height: 20px;
     width: 20px;
     background-color: #a543fa;
