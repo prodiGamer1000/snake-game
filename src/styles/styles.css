@@ -29,5 +29,5 @@ body{
     flex-direction: column;
 }
 .snake_body, .snake_head{
-    background-color: #b8b807;
+    background-color: #59ff00;
 }
