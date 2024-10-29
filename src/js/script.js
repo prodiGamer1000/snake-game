@@ -7,9 +7,9 @@ let snake_wheight = 3
 document.addEventListener('keydown', (e)=>{
     snake_head_pos = snake_head.classList[1]
     if(e.keyCode == 39){
-        direita(snake_head_pos, a)
+        direita(snake_head_pos, "a")
     }else if(e.keyCode == 37){
-        esquerda(snake_head_pos, a)
+        esquerda(snake_head_pos, "a")
     }
 })
 
