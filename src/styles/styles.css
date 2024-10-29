@@ -4,15 +4,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ddd;
 }
 title{ 
     display: none;
 }
 body{
-    height: 100vh;
+    height: 99vh;
+}
+.game{
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 .block{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
     height: 20px;
     width: 20px;
     background-color: #a543fa;
