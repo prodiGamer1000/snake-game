@@ -1,0 +1,21 @@
+*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.block{
+    height: 20px;
+    width: 20px;
+    background-color: #a543fa;
+}
+.end{
+    display: none;
+}
+.col{
+    flex-direction: column;
+}
