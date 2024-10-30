@@ -96,8 +96,8 @@ function esquerda(x, y){
     snake_head.classList.remove('.snake_head')
     number = traduzirNumero(x)
     number--
-    numb = destraduzirNumero(number)
-    document.querySelector('.'+numb).classList.add('.snake_head')
+    snake_head_pos = destraduzirNumero(number)
+    document.querySelector('.'+snake_head_pos).classList.add('.snake_head')
     
 }
 function direita(x,y){}
