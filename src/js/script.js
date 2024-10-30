@@ -11,7 +11,7 @@ document.addEventListener('keydown', (e)=>{
     }else if(e.keyCode == 37){
         esquerda(snake_head_pos, "a")
     }
-    snake_head_pos = snake_head.classList[2]
+    snake_head_pos = snake_head.classList[1]
 })
 
 
