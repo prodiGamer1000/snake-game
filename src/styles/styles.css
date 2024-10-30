@@ -12,6 +12,8 @@ body{
     height: 99vh;
 }
 .game{
+    display: flex;
+    flex-direction: column;
     border-left: 2px solid #ddd;
     border-top: 2px solid #ddd;
 }
@@ -24,9 +26,6 @@ body{
 }
 .end{
     display: none;
-}
-.col{
-    flex-direction: column;
 }
 .snake_body, .snake_head{
     background-color: #59ff00;
