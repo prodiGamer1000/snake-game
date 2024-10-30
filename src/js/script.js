@@ -93,7 +93,7 @@ function destraduzirNumero(n){
 function cima(x, y){}
 function baixo(x, y){}
 function esquerda(x, y){
-    document.querySelector('.'+x)
+    number = document.querySelector('.'+x)
     snake_head.classList.remove('.snake_head')
     number = traduzirNumero(x)
     number--
