@@ -3,14 +3,15 @@ const snake_body = document.querySelector('.snake_body')
 
 let snake_head_pos
 let snake_wheight = 3
+snake_head_pos = snake_head.classList[1]
 
 document.addEventListener('keydown', (e)=>{
-    snake_head_pos = snake_head.classList[1]
     if(e.keyCode == 39){
         direita(snake_head_pos, "a")
     }else if(e.keyCode == 37){
         esquerda(snake_head_pos, "a")
     }
+    snake_head_pos = snake_head.classList[2]
 })
 
 
