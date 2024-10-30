@@ -102,3 +102,7 @@ function esquerda(x, y){
     
 }
 function direita(x,y){}
+
+setInterval(()=>{
+    console.log(snake_head_pos)
+},1500)
